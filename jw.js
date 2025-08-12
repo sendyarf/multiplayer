@@ -7,7 +7,7 @@ function loadJWPlayer() {
     const urlParams = new URLSearchParams(window.location.search);
     const jwParam = urlParams.get('jw');
   
-    fetch('channels.json')
+    fetch('https://besoksenin.pages.dev/channels.json')
       .then(response => response.json())
       .then(data => {
         const channel = data.channels.dash.find(ch => ch.name.toLowerCase() === jwParam.toLowerCase());

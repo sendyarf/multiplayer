@@ -46,7 +46,7 @@ async function loadShakaPlayer() {
         const ui = new shaka.ui.Overlay(player, playerDiv, videoElement);
         
         // Konfigurasi player
-        player.configure({
+        const config = {
             streaming: {
                 bufferingGoal: 60,
                 rebufferingGoal: 2,
@@ -58,16 +58,27 @@ async function loadShakaPlayer() {
                     fuzzFactor: 0.5
                 }
             },
-            drm: {
-                clearKeys: {
-                    [channel.keyId]: channel.key
-                }
-            },
             // Aktifkan kontrol kualitas
             abr: {
                 enabled: true
             }
-        });
+        };
+
+        // Tambahkan konfigurasi clearkeys jika tersedia
+        if (channel.clearkeys) {
+            config.drm = {
+                clearKeys: channel.clearkeys
+            };
+        } else if (channel.keyId && channel.key) {
+            // Support for legacy format (single key)
+            config.drm = {
+                clearKeys: {
+                    [channel.keyId]: channel.key
+                }
+            };
+        }
+
+        player.configure(config);
 
         // Muat manifest DASH
         try {

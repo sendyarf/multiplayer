@@ -9,7 +9,8 @@
     body { 
       margin: 0; 
       padding: 0; 
-      overflow: hidden; 
+      /* overflow: hidden; */
+      overflow-y: auto;
       background-color: black;
       /* Tambahkan font default agar teks terlihat bagus */
       font-family: Arial, sans-serif; 
@@ -32,8 +33,14 @@
     
   </style>
 
-  <!-- ... sisa <head> Anda tetap sama ... -->
+  <!-- Clappr Player and its dependencies -->
   <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <!-- HLS.js plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/clappr-hlsjs-playback@latest/dist/hlsjs-playback.min.js"></script>
+  <!-- TAMBAHKAN PLUGIN CLAPPR-SHAKA SETELAH CLAPPR CORE -->
+  <script src="https://cdn.jsdelivr.net/npm/clappr-dash-shaka-player@latest/dist/clappr-dash-shaka-player.min.js"></script>
+  <!-- Dash.js plugin with Shaka Player for better DASH support -->
+  <script src="https://cdn.jsdelivr.net/npm/clappr-dash-shaka-playback@latest/dist/dash-shaka-playback.min.js"></script>
   <script src='https://ssl.p.jwpcdn.com/player/v/8.36.3/jwplayer.js'></script>
   <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.3.4/shaka-player.ui.js"></script>
   <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/shaka-player/4.3.4/controls.css">
@@ -48,14 +55,14 @@
   <div id="homepage-content"></div>
   
   <!-- ... sisa <body> dengan semua file .js Anda ... -->
-  <script src="https://besoksenin.pages.dev/reset.js"></script>
-  <script src="https://besoksenin.pages.dev/iframe.js"></script>
-  <script src="https://besoksenin.pages.dev/ss.js"></script>
-  <script src="https://besoksenin.pages.dev/envivo.js"></script>
-  <script src="https://besoksenin.pages.dev/hls.js"></script>
-  <script src="https://besoksenin.pages.dev/jw.js"></script>
-  <script src="https://besoksenin.pages.dev/shaka.js"></script>
-  <script src="https://besoksenin.pages.dev/main.js"></script>
+  <script src="reset.js"></script>
+  <script src="iframe.js"></script>
+  <script src="ss.js"></script>
+  <script src="envivo.js"></script>
+  <script src="hls.js"></script>
+  <script src="jw.js"></script>
+  <script src="shaka.js"></script>
+  <script src="main.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', initializePlayer);
   </script>

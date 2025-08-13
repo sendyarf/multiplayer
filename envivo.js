@@ -50,7 +50,7 @@ function loadEnvivoPlayer() {
     // 6. Buat tombol dropdown
     const dropdownContainer = document.createElement('div');
     dropdownContainer.className = 'envivo-dropdown-container'; // Agar bisa dihapus oleh resetUI()
-    dropdownContainer.style.cssText = 'position:absolute; top:10px; right:10px; z-index:1000; background:rgba(0,0,0,0.7); color:white; padding:10px; border-radius:5px;';
+    dropdownContainer.style.cssText = 'position:absolute; top:10px; right:10px; z-index:1000; color:white; padding:10px; border-radius:5px;';
     
     const select = document.createElement('select');
     select.style.cssText = 'background:white; color:black; border:1px solid white; border-radius:3px;';

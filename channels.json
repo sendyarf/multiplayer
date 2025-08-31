@@ -152,10 +152,17 @@
           }
         },
         {
-          "name": "USANETWORK",
-          "url": "https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-west)/master.mpd",
+          "name": "usanetwork",
+          "url": "https://cfrt.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-west)/master.mpd",
           "clearkeys": {
             "333962e3e1383529867a9a0e28a5e5d1": "5d3fcbed53749ee622ed0e64f31c1cbf"
+          }
+        },
+          {
+          "name": "telemundo",
+          "url": "https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
+          "clearkeys": {
+            "ce7ab3022e753307997f58afe001bac4": "72d631a66e635c60829a0fe7705516c1"
           }
         },
         {
@@ -166,8 +173,8 @@
           }
         },
         {
-          "name": "UNIVERSO",
-          "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL1-CTR-4s/Live/channel(universo-east)/master.mpd",
+          "name": "universo",
+          "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
           "clearkeys": {
             "a42669eafed7349499aab7df588b3ccf": "0fbff143ebd097060a377e4ade033288"
           }

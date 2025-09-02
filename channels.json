@@ -387,6 +387,13 @@
     "clearkeys": {
         "034653d3413f23e87249d1fb7e68359a": "a0d6b849f17c430e9cc02d07739a4e4a"
     }
+},
+          {
+    "name": "mewatch5",
+    "url": "https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd",
+    "clearkeys": {
+        "91b9592c819246c68b3b08a1fe08ba22": "fa0d80dfd865b34077bae44cd4a0c5e6"
+    }
 }
       ]
     }

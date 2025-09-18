@@ -524,6 +524,13 @@
     "5ac608b8804cec0453314a751cdf5f20": "2bfed47e32b19e4ecf3f0692876e4ce5",
     "5ac608b8804cec0453314a751cdf5f10": "a01e1090ee4a41d57dff74a8703e17cf"
   }
+},
+{
+"name": "sgm",
+"url": "https://tglmp04.akamaized.net/out/v1/5793335474d74566a8a0adfa260f22a9/manifest.mpd ",
+"clearkeys": {
+  "5332345367554fd39588283a2b949d02": "8abcd0b3126923b068c26508e24c9f69"
+}
 }
 
     ]

@@ -14,7 +14,7 @@ function loadSSPlayer() {
   
     if (ssParam) {
         let category = 'hd';
-        if (ssParam.includes('sporttv')) category = 'pt';
+        if (ssParam.includes('sporttv') || ssParam.includes('eleven')) category = 'pt';
         else if (ssParam.includes('br')) category = 'bra';
         
         iframePlayer.src = `https://sportzonline.site/channels/${category}/${ssParam}.php`;

@@ -559,7 +559,14 @@
   "clearkeys": {
     "5fd3f407ea7c465b854db7cd8235b39b": "0c2ad3408bb09f698e86e1ca2e26a888"
   }
-}
+},
+{
+  "name": "mlive5",
+  "url": "https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd",
+  "clearkeys": {
+    "91b9592c819246c68b3b08a1fe08ba22": "fa0d80dfd865b34077bae44cd4a0c5e6"
+  }
+  }
 
     ]
   }

@@ -49,6 +49,10 @@ function loadJWPlayer() {
     playerDiv.innerHTML = `
         <div class="player-wrapper" style="width:100%; height:100%; display:flex; justify-content:center; align-items:center; background-color:black;">
             <div id="jw-player-container" style="position:relative; display:flex; justify-content:center; align-items:center; max-width:100vw; max-height:100vh; width:auto; height:auto;">
+                <div id="player-error" style="color: white; text-align: center; padding: 20px; display: none;">
+                    <h2>Error Memuat Video</h2>
+                    <p>Mohon maaf, terjadi kesalahan saat memuat video. Silakan refresh halaman atau coba lagi nanti.</p>
+                </div>
             </div>
         </div>
     `;
@@ -57,107 +61,157 @@ function loadJWPlayer() {
     const urlParams = new URLSearchParams(window.location.search);
     const jwParam = urlParams.get('jw');
 
-    fetch('https://besoksenin.pages.dev/channels.json')
-        .then(response => response.json())
-        .then(data => {
-            const channel = data.channels.dash.find(ch => ch.name.toLowerCase() === jwParam.toLowerCase());
+    // Gunakan path yang relatif untuk channels.json
+    const channelsUrl = window.location.hostname === 'localhost' ? 
+        'channels.json' : 
+        `https://${window.location.hostname}/channels.json`;
+
+    fetch(channelsUrl, {
+        cache: 'no-cache',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        mode: 'cors',
+        credentials: 'same-origin'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        const channel = data.channels.dash.find(ch => ch.name.toLowerCase() === jwParam.toLowerCase());
+        
+        if (channel) {
+            console.log(`[jw.js] Channel '${jwParam}' ditemukan. Membuat konfigurasi final.`);
             
-            if (channel) {
-                console.log(`[jw.js] Channel '${jwParam}' ditemukan. Membuat konfigurasi final.`);
-                
-                // Buat objek konfigurasi DRM
-                const drmConfig = {};
-                
-                // Handle multiple clearkeys
-                if (channel.clearkeys) {
-                    Object.entries(channel.clearkeys).forEach(([keyId, key], index) => {
-                        drmConfig[`clearkey${index > 0 ? index + 1 : ''}`] = { keyId, key };
-                    });
-                } else if (channel.keyId && channel.key) {
-                    // Support for legacy format (single key)
-                    drmConfig.clearkey = { keyId: channel.keyId, key: channel.key };
-                }
-                
-                // Konfigurasi sumber video dengan DRM
-                const sources = [{
-                    "type": "dash",
-                    "file": channel.url,
-                    "drm": drmConfig,
-                    "label": "HD"
-                }];
-
-                // Konfigurasi JW Player dengan aspect ratio preservation
-                const playerConfig = {
-                    playlist: [{
-                        title: channel.name,
-                        sources: sources
-                    }],
-                    autostart: true,
-                    width: '100%',
-                    height: '100%',
-                    // Hapus fixed aspectratio agar bisa auto-adjust
-                    stretching: "uniform", // Mempertahankan aspect ratio
-                    displaytitle: true,
-                    displaydescription: false,
-                    controls: true,
-                    sharing: false,
-                    cast: {},
-                    skin: {
-                        name: "seven"
-                    }
-                };
-
-                try {
-                    // Setup JW Player di container khusus
-                    currentJWPlayer = jwplayer("jw-player-container").setup(playerConfig);
-                    
-                    // Event listener untuk ready state
-                    currentJWPlayer.on('ready', function() {
-                        console.log("[jw.js] JW Player ready, setting up aspect ratio handling");
-                        adjustJWPlayerSize();
-                        
-                        // Setup resize listener (hanya jika belum ada)
-                        if (!window.jwResizeListener) {
-                            window.jwResizeListener = function() {
-                                adjustJWPlayerSize();
-                            };
-                            window.addEventListener('resize', window.jwResizeListener);
-                        }
-                    });
-
-                    // Event listener untuk metadata loaded
-                    currentJWPlayer.on('meta', function(event) {
-                        console.log(`[jw.js] Video metadata loaded:`, event);
-                        adjustJWPlayerSize();
-                    });
-
-                    // Event listener untuk fullscreen changes
-                    currentJWPlayer.on('fullscreen', function(event) {
-                        setTimeout(() => {
-                            adjustJWPlayerSize();
-                        }, 100);
-                    });
-
-                    // Error handling
-                    currentJWPlayer.on('error', function(event) {
-                        console.error("[jw.js] JW Player error:", event);
-                    });
-
-                    console.log("[jw.js] JW Player berhasil di-setup dengan konfigurasi aspect ratio preservation.");
-                    
-                } catch(e) {
-                    console.error("[jw.js] FATAL: Gagal membuat JW Player.", e);
-                    cleanupJWPlayer();
-                }
-
-            } else {
-                console.error(`[jw.js] Channel '${jwParam}' tidak ditemukan.`);
+            // Buat objek konfigurasi DRM
+            const drmConfig = {};
+            
+            // Handle multiple clearkeys
+            if (channel.clearkeys) {
+                Object.entries(channel.clearkeys).forEach(([keyId, key], index) => {
+                    drmConfig[`clearkey${index > 0 ? index + 1 : ''}`] = { keyId, key };
+                });
+            } else if (channel.keyId && channel.key) {
+                // Support for legacy format (single key)
+                drmConfig.clearkey = { keyId: channel.keyId, key: channel.key };
             }
-        })
-        .catch(error => {
-            console.error("[jw.js] FATAL:", error);
-            cleanupJWPlayer();
-        });
+            
+            // Konfigurasi sumber video dengan DRM
+            const sources = [{
+                "type": "dash",
+                "file": channel.url,
+                "drm": drmConfig,
+                "label": "HD"
+            }];
+
+            // Konfigurasi JW Player dengan aspect ratio preservation
+            const playerConfig = {
+                playlist: [{
+                    title: channel.name,
+                    sources: sources
+                }],
+                autostart: true,
+                width: '100%',
+                height: '100%',
+                stretching: "uniform",
+                displaytitle: true,
+                displaydescription: false,
+                controls: true,
+                sharing: false,
+                cast: {},
+                skin: {
+                    name: "seven"
+                },
+                // Tambahkan error handling
+                abr: {
+                    defaultBandwidthEstimate: 2000000,
+                    bandwidthUpSwitchTarget: 0.9,
+                    bandwidthDownSwitchTarget: 0.9,
+                    minBitrate: { start: 100000 },
+                    maxBitrate: { start: 6000000 }
+                }
+            };
+
+            try {
+                // Pastikan JWPlayer sudah dimuat
+                if (typeof jwplayer === 'undefined') {
+                    throw new Error('JWPlayer library not loaded');
+                }
+
+                // Setup JW Player di container khusus
+                currentJWPlayer = jwplayer("jw-player-container").setup(playerConfig);
+                
+                // Event listener untuk ready state
+                currentJWPlayer.on('ready', function() {
+                    console.log("[jw.js] JW Player ready, setting up aspect ratio handling");
+                    adjustJWPlayerSize();
+                    
+                    // Setup resize listener (hanya jika belum ada)
+                    if (!window.jwResizeListener) {
+                        window.jwResizeListener = function() {
+                            adjustJWPlayerSize();
+                        };
+                        window.addEventListener('resize', window.jwResizeListener);
+                    }
+                });
+
+                // Event listener untuk error
+                currentJWPlayer.on('error', function(error) {
+                    console.error('[jw.js] JW Player error:', error);
+                    showError('Error memutar video. Silakan coba lagi.');
+                });
+
+                // Event listener untuk buffer
+                currentJWPlayer.on('buffer', function() {
+                    console.log('[jw.js] Buffering...');
+                });
+
+                // Event listener untuk metadata loaded
+                currentJWPlayer.on('meta', function(event) {
+                    console.log(`[jw.js] Video metadata loaded:`, event);
+                    adjustJWPlayerSize();
+                });
+
+                // Event listener untuk fullscreen changes
+                currentJWPlayer.on('fullscreen', function(event) {
+                    setTimeout(() => {
+                        adjustJWPlayerSize();
+                    }, 100);
+                });
+
+                console.log("[jw.js] JW Player berhasil di-setup dengan konfigurasi aspect ratio preservation.");
+                
+            } catch(e) {
+                console.error("[jw.js] FATAL: Gagal membuat JW Player.", e);
+                showError('Gagal memuat pemutar video. Pastikan browser Anda mendukung pemutaran video.');
+                cleanupJWPlayer();
+            }
+
+        } else {
+            console.error(`[jw.js] Channel '${jwParam}' tidak ditemukan.`);
+            showError(`Channel '${jwParam}' tidak ditemukan.`);
+        }
+    })
+    .catch(error => {
+        console.error("[jw.js] Error loading channels:", error);
+        showError('Gagal memuat daftar channel. Silakan coba lagi nanti.');
+        cleanupJWPlayer();
+    });
+}
+
+// Function untuk menampilkan pesan error
+function showError(message) {
+    const errorDiv = document.getElementById('player-error');
+    if (errorDiv) {
+        errorDiv.style.display = 'block';
+        const messageEl = errorDiv.querySelector('p');
+        if (messageEl) {
+            messageEl.textContent = message;
+        }
+    }
 }
 
 // Function untuk menyesuaikan ukuran JW Player dengan mempertahankan aspect ratio

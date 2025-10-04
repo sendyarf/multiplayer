@@ -153,9 +153,9 @@
       },
       {
         "name": "usanetwork",
-        "url": "https://cfrt.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-west)/master.mpd",
+        "url": "https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd",
         "clearkeys": {
-          "333962e3e1383529867a9a0e28a5e5d1": "5d3fcbed53749ee622ed0e64f31c1cbf"
+          "043ba1b4a2823fc4a6033178f3560431": "684358d80874b55f9335c73126e4d44e"
         }
       },
         {
@@ -566,6 +566,14 @@
   "clearkeys": {
     "91b9592c819246c68b3b08a1fe08ba22": "fa0d80dfd865b34077bae44cd4a0c5e6"
   }
+  },
+
+{
+    "name": "universow",
+    "url": "https://cfrt.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(universo-west)/master.mpd",
+    "clearkeys": {
+      "1b0d41ddf54a37a6b6caa0484bb3df40": "0892217616382e2faf84f6de3847cc7d"
+    }
   }
 
     ]

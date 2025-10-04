@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Video Player</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #000;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #player-container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background: #000;
+        }
+        #video-player, #clappr-player, #iframe-player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #shaka-video {
+            width: 100%;
+            height: 100%;
+            background: #000;
+        }
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+            z-index: 10;
+        }
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .welcome {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            z-index: 10;
+        }
+        .welcome h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: glow 2s ease-in-out infinite;
+        }
+        @keyframes glow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        .error {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 0, 0, 0.8);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 80%;
+            z-index: 10;
+        }
+    </style>
+    
+    <!-- JWPlayer -->
+    <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+    
+    <!-- Shaka Player -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+    
+    <!-- Clappr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clappr/0.4.7/clappr.min.js"></script>
+</head>
+<body>
+    <div id="player-container">
+        <div class="loading" id="loading" style="display:none;">
+            <div class="spinner"></div>
+            <div>Memuat player...</div>
+        </div>
+        <div id="video-player"></div>
+        <div id="clappr-player"></div>
+        <iframe id="iframe-player" frameborder="0" allowfullscreen allow="autoplay; encrypted-media" style="display:none;"></iframe>
+        <div class="welcome" id="welcome" style="display:none;">
+            <h1>SELAMAT DATANG</h1>
+        </div>
+    </div>
+
+    <script>
+        // Data channels untuk MPD
+        const mpdChannels = {
+            "ssc1": {
+                "name": "SSC 1",
+                "url": "https://ssc-1-on-prem-sam.akamaized.net/out/v1/ec938957b97b4f20900133a8e2f96980/index.mpd",
+                "clearkeys": {
+                    "7d6bb9f86e133e4cb33440b493b6b672": "584ad285dcb9e7d42cf3e93f1cc3fe11"
+                }
+            },
+            "telemundo": {
+                "name": "TELEMUNDO",
+                "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL1-CTR-4s/Live/channel(WSNS)/master.mpd",
+                "clearkeys": {
+                    "7d6bb9f86e133e4cb33440b493b6b672": "584ad285dcb9e7d42cf3e93f1cc3fe11"
+                }
+            },
+            "arena1p": {
+                "name": "Arena Premium 1",
+                "url": "https://bpkcdn.telekom.me/bpk-tv/arena_premium_1/default/index.mpd",
+                "clearkeys": {
+                    "ddf7a6d83eb05ab48a757b638244af57": "720eb820e035ebe9f9a84e9f258282a1",
+                    "96a46b5f1627549db9632ae1172ea62d": "feb9eb6327915c1547ad17c2461b9f66",
+                    "7815e3024bf55d5296ece7d188442baa": "4178f0a0b6eed010845a6342a0831f79"
+                }
+            }
+        };
+
+        // Data channels untuk M3U8
+        const hlsChannels = {
+            "ssc1": {
+                "name": "SSC 1 HLS",
+                "url": "https://ssc-1-on-prem-sam.akamaized.net/out/v1/ec938957b97b4f20900133a8e2f96980/index.m3u8"
+            },
+            "bahrainsp1": {
+                "name": "BAHRAIN SPORTS 1",
+                "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8"
+            }
+        };
+
+        let currentPlayer = null;
+
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('welcome').style.display = 'none';
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function showWelcome() {
+            document.getElementById('welcome').style.display = 'block';
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function showError(message) {
+            hideLoading();
+            const playerContainer = document.getElementById('player-container');
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error';
+            errorDiv.innerHTML = `<h2>Error</h2><p>${message}</p>`;
+            playerContainer.appendChild(errorDiv);
+        }
+
+        function base64Decode(str) {
+            try {
+                return atob(str);
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function initShakaPlayer(channelData) {
+            showLoading();
+            
+            const video = document.createElement('video');
+            video.id = 'shaka-video';
+            video.controls = true;
+            video.autoplay = true;
+            
+            const container = document.getElementById('video-player');
+            container.innerHTML = '';
+            container.appendChild(video);
+
+            const player = new shaka.Player(video);
+            currentPlayer = player;
+
+            if (channelData.clearkeys) {
+                player.configure({
+                    drm: {
+                        clearKeys: channelData.clearkeys
+                    }
+                });
+            }
+
+            player.load(channelData.url).then(() => {
+                hideLoading();
+            }).catch(error => {
+                showError('Error memuat video: ' + error.message);
+            });
+        }
+
+        function initJWPlayer(channelData) {
+            showLoading();
+            
+            const container = document.getElementById('video-player');
+            container.innerHTML = '<div id="jw-player"></div>';
+
+            const sources = [{
+                file: channelData.url,
+                type: 'dash'
+            }];
+
+            const jwConfig = {
+                playlist: [{
+                    sources: sources
+                }],
+                width: '100%',
+                height: '100%',
+                autostart: true
+            };
+
+            if (channelData.clearkeys) {
+                const clearKeyData = Object.entries(channelData.clearkeys).map(([kid, key]) => ({
+                    kid: kid,
+                    key: key
+                }));
+                
+                jwConfig.playlist[0].sources[0].drm = {
+                    clearkey: clearKeyData[0]
+                };
+            }
+
+            currentPlayer = jwplayer('jw-player').setup(jwConfig);
+            
+            currentPlayer.on('ready', () => {
+                hideLoading();
+            });
+
+            currentPlayer.on('error', (error) => {
+                showError('Error memuat video: ' + error.message);
+            });
+        }
+
+        function initClappr(url, channelName) {
+            showLoading();
+            
+            const container = document.getElementById('clappr-player');
+            container.innerHTML = '';
+
+            currentPlayer = new Clappr.Player({
+                source: url,
+                parentId: '#clappr-player',
+                width: '100%',
+                height: '100%',
+                autoPlay: true
+            });
+
+            setTimeout(() => {
+                hideLoading();
+            }, 1000);
+        }
+
+        function initIframe(url) {
+            showLoading();
+            
+            const iframe = document.getElementById('iframe-player');
+            iframe.src = url;
+            iframe.style.display = 'block';
+            
+            setTimeout(() => {
+                hideLoading();
+            }, 500);
+        }
+
+        function parseURL() {
+            const params = new URLSearchParams(window.location.search);
+
+            // Shaka Player (MPD)
+            if (params.has('shaka')) {
+                const channelId = params.get('shaka');
+                const channelData = mpdChannels[channelId];
+                
+                if (channelData) {
+                    initShakaPlayer(channelData);
+                } else {
+                    showError('Channel tidak ditemukan: ' + channelId);
+                }
+                return;
+            }
+
+            // JW Player (MPD)
+            if (params.has('jw')) {
+                const channelId = params.get('jw');
+                const channelData = mpdChannels[channelId];
+                
+                if (channelData) {
+                    initJWPlayer(channelData);
+                } else {
+                    showError('Channel tidak ditemukan: ' + channelId);
+                }
+                return;
+            }
+
+            // Clappr (HLS)
+            if (params.has('hls')) {
+                const hlsParam = params.get('hls');
+                
+                // Cek apakah ini channel ID atau URL encoded
+                if (hlsChannels[hlsParam]) {
+                    const channelData = hlsChannels[hlsParam];
+                    initClappr(channelData.url, channelData.name);
+                } else {
+                    // Decode base64 URL
+                    const decodedUrl = base64Decode(hlsParam);
+                    if (decodedUrl) {
+                        initClappr(decodedUrl, 'Custom HLS Stream');
+                    } else {
+                        showError('Invalid HLS parameter');
+                    }
+                }
+                return;
+            }
+
+            // iFrame Embed
+            if (params.has('iframe')) {
+                const iframeParam = params.get('iframe');
+                const decodedUrl = base64Decode(iframeParam);
+                
+                if (decodedUrl) {
+                    initIframe(decodedUrl);
+                } else {
+                    showError('Invalid iframe parameter');
+                }
+                return;
+            }
+
+            // Default: Show welcome message
+            showWelcome();
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', parseURL);
+    </script>
+</body>
+</html>

@@ -554,6 +554,13 @@
   }
 },
 {
+  "name": "sport1baltic",
+  "url": "https://v4-kun-v13-cdn-02.live.cdn.cgates.lt/live/dash/561204/index.mpd",
+  "clearkeys": {
+    "032ba9e7db644873861490a3afc863d8": "fd29ed4731ecafba696ac68cbe870008"
+  }
+},
+{
   "name": "sport2baltic",
   "url": "https://v4-kun-v13-cdn-02.live.cdn.cgates.lt/live/dash/561209/index.mpd",
   "clearkeys": {

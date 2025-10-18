@@ -588,6 +588,14 @@
     "clearkeys": {
       "11223344556677889900112233445566": "4b80724d0ef86bcb2c21f7999d67739d"
     }
+  },
+      {
+    "name": "tv2xdk",
+    "url": "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_tv2_sport_x_live/sm_tv2_sport_x_live.isml/playlist.mpd",
+    "clearkeys": {
+      "6529e289d61a7d467c7a6a8d80189b20": "4f82fb1d198a249b50fe7cb093f3705b",
+      "6529e289d61a7d467c7a6a8d80189b10": "8df6584244a3a3303ac9b3fb689e2e19"
+    }
   }
 
     ]

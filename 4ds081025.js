@@ -4,6 +4,7 @@ var popurls = [
     "https://goeco.mobi/cESAGTnX",
     "https://goeco.mobi/MLyEcvKG",
     "https://goeco.mobi/MIlZFZmR",
+    "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
     ];
     
     var lastPopupTime = 0;

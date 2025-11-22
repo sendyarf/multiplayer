@@ -1,10 +1,12 @@
 var popurls = [
-    "https://goeco.mobi/nLUcWfbr",
-    "https://goeco.mobi/xqnxGyVp",
-    "https://goeco.mobi/cESAGTnX",
-    "https://goeco.mobi/MLyEcvKG",
-    "https://goeco.mobi/MIlZFZmR",
+    "https://goeco.mobi/mac2jWon",
+    "https://goeco.mobi/5TWCLzdl",
+    "https://goeco.mobi/Fwu7U0nI",
+    "https://goeco.mobi/RV1GhssO",
+    "https://goeco.mobi/v945tSWp",
     "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
+    "https://t.me/EQuranIdBot/app",
+    "https://himawarinovel.my.id/",
     ];
     
     var lastPopupTime = 0;

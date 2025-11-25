@@ -7,6 +7,7 @@ var popurls = [
     "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
     "https://t.me/EQuranIdBot/app",
     "https://himawarinovel.my.id/",
+    "https://cinezinn.govoet.cc/",
     ];
     
     var lastPopupTime = 0;

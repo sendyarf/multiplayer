@@ -13,7 +13,7 @@ const ssParam = urlParams.get('ss');
 
 if (ssParam) {
     let category = 'hd';
-    if (ssParam.includes('sporttv') || ssParam.includes('eleven')) || ssParam.includes('eleven')) category = 'pt';
+    if (ssParam.includes('sporttv') || ssParam.includes('eleven')) || ssParam.includes('btv')) category = 'pt';
     else if (ssParam.includes('br')) category = 'bra';
     
     iframePlayer.src = `https://sportzonline.top/channels/${category}/${ssParam}.php`;

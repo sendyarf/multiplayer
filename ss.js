@@ -14,9 +14,16 @@ function loadSSPlayer() {
   
     if (ssParam) {
         let category = 'hd';
-        if (ssParam.includes('sporttv') || ssParam.includes('eleven')) category = 'pt';
-        else if (ssParam.includes('br')) category = 'bra';
         
-        iframePlayer.src = `https://sportzonline.top/channels/${category}/${ssParam}.php`;
+        // Logika diperbarui: menambahkan pengecekan untuk 'btv'
+        if (ssParam.includes('sporttv') || ssParam.includes('eleven') || ssParam.includes('btv')) {
+            category = 'pt';
+        }
+        else if (ssParam.includes('br')) {
+            category = 'bra';
+        }
+        
+        // Domain diperbarui ke sportsonline.sn sesuai contoh Anda
+        iframePlayer.src = `https://sportsonline.sn/channels/${category}/${ssParam}.php`;
     }
 }

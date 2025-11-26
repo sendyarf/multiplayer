@@ -24,6 +24,6 @@ function loadSSPlayer() {
         }
         
         // Domain diperbarui ke sportsonline.sn sesuai contoh Anda
-        iframePlayer.src = `https://sportsonline.sn/channels/${category}/${ssParam}.php`;
+        iframePlayer.src = `https://sportsonline.top/channels/${category}/${ssParam}.php`;
     }
 }

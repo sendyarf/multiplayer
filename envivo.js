@@ -40,7 +40,7 @@ function loadEnvivoPlayer() {
         }
 
         // Atur URL baru
-        const url = `https://rereyano.ru/player/${serverConfig.path}/${channelNumber}`;
+        const url = `https://bolaloca.my/player/${serverConfig.path}/${channelNumber}`;
         iframePlayer.src = url;
     }
 

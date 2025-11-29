@@ -609,7 +609,15 @@
         "clearkeys": {
           "d9623774ac5c8c351aafe97c5fe70267": "5164e6d05164a2d65fa8fcc962aa4861"
         }
+      },
+      {
+        "name": "soccerchannel",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+        "clearkeys": {
+          "4035323a7fe64767ab8f3345ed9b93be": "67377b8d429603f8bf30c161bda269e5"
+        }
       }
+      
     ]
   }
 }

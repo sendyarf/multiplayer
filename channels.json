@@ -624,6 +624,10 @@
         "clearkeys": {
           "ca4316630f56d6f33e9ff73b7ad211d1": "72c54e5646055f444e99bc1123919e89"
         }
+      },
+      {
+        "name": "psn1",
+        "url": "https://cdn3.skygo.mn/live/disk1/SPSPrime/DASH-FTA/SPSPrime.mpd"
       }
       
     ]

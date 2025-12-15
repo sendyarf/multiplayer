@@ -153,7 +153,7 @@
       },
       {
         "name": "NOVA2",
-        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
+        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cbcs.mpd",
         "clearkeys": {
           "11223344556677889900112233445566": "4b80724d0ef86bcb2c21f7999d67739d"
         }
@@ -167,9 +167,16 @@
       },
       {
         "name": "telemundo",
-        "url": "https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
+        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WNJU)/master.mpd",
         "clearkeys": {
-          "ce7ab3022e753307997f58afe001bac4": "72d631a66e635c60829a0fe7705516c1"
+          "c71fe7bc82f037c6af21fd299d6341b0": "13223c98886ff43d3c5f271eeb457cc6"
+        }
+      },
+      {
+        "name": "tudnmx",
+        "url": "https://zap-live1-ott.izzigo.tv/11/out/u/dash/TUDN-HD/default.mpd",
+        "clearkeys": {
+          "2722647f77b44824c432a3c4555830a2": "1734befb82f4b438bd84195f6c212e7b"
         }
       },
       {
@@ -348,16 +355,16 @@
       },
       {
         "name": "bein1aus",
-        "url": "https://a122aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/pwdvd9fm5u/out/v1/5e22845dab3648b8a7033fd5923d62d1/cenc.mpd",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
         "clearkeys": {
-          "f959dcdd1ca8c89658cd651ed36e2851": "aa4cf56ce7c522a9e6582c42537be381"
+          "335dad778109954503dcbb21dc92015f": "24bfd75d436cbf73168a2a2dccd40281"
         }
       },
       {
         "name": "bein2aus",
-        "url": "https://a36aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/6fbnr3ei4b/out/v1/57d2ae96a4cc4230881cd801b389edf6/cenc.mpd",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
         "clearkeys": {
-          "9afd72f20573001c23672d2158892a5f": "9bc32df48a2efac30072b7e5c683bcd1"
+          "0b42be2664d7e811d04f3e504e0924c5": "ae24090123b8c72ac5404dc152847cb8"
         }
       },
       {
@@ -365,6 +372,13 @@
         "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "clearkeys": {
           "7995c724a13748ed970840a8ab5bb9b3": "67bdaf1e2175b9ff682fcdf0e2354b1e"
+        }
+      },
+      {
+        "name": "italia1",
+        "url": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd",
+        "clearkeys": {
+          "00f9f3c0783536b8ee91704e23b78016": "bfd04d6f544c9cc4d35cb13ab6778587"
         }
       },
       {

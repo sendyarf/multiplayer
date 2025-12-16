@@ -354,6 +354,20 @@
         }
       },
       {
+        "name": "espn1mx",
+        "url": "https://zap-live2-ott.izzigo.tv/1/out/u/dash/ESPNHD/default.mpd",
+        "clearkeys": {
+          "bb43112b7b72e9c287da0ecdec8606a7": "29e3d2678107f0ab0b35b6537c734f2a"
+        }
+      },
+       {
+        "name": "espn2mx",
+        "url": "https://zap-live2-ott.izzigo.tv/1/out/u/dash/ESPN2HD/default.mpd",
+        "clearkeys": {
+          "90e2e491c850a49a5ab21bb6fa6b4d24": "4d7e33da19b971cef49e35eccdb9de0b"
+        }
+      },
+      {
         "name": "bein1aus",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
         "clearkeys": {

@@ -529,6 +529,13 @@
         }
       },
       {
+        "name": "skybundesliga",
+        "url": "https://zap-live5-ott.izzigo.tv/5/out/u/dash/SKYSPORTS24HD/manifest.mpd",
+        "clearkeys": {
+          "d8d5823d92a9ef9306a4cc4bd634b4b4": "df9fbdaa0ef9e905b75f4692f213af19"
+        }
+      },
+      {
         "name": "vsport1",
         "url": "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport1_hd_live/sm_viasport1_hd_live.isml/playlist.mpd",
         "clearkeys": {

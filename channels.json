@@ -683,8 +683,12 @@
        {
         "name": "psn4",
         "url": "https://cdn3.skygo.mn/live/disk1/SPSFight/DASH-FTA/SPSFight.mpd"
+      },
+      {
+        "name": "psn5",
+        "url": "http://cdn3.skygo.mn/live/disk1/SPSPlus/DASH-FTA/SPSPlus.mpd"
       }
-      
+
     ]
   }
 }

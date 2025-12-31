@@ -46,11 +46,11 @@
         "url": "https://wax.emblazonn.com/live/v1/r0oTng7s3goL6ZvoRhk-HhUTSJ4XuahoSMd81cAL4ANncLLpytZJ7an0HOQsYBWk/master.m3u8"
       },
       {
-        "name": "psn1",
+        "name": "psn1hls",
         "url": "http://cdn4.skygo.mn/live/disk1/SPSPrime/HLS-FTA/SPSPrime.m3u8"
       },
       {
-        "name": "psn2",
+        "name": "psn2hls",
         "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLS-FTA/SPSPlay.m3u8"
       },
       {

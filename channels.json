@@ -691,6 +691,15 @@
       {
         "name": "psn5",
         "url": "http://cdn4.skygo.mn/live/disk1/SPSPlus/DASH-FTA/SPSPlus.mpd"
+      },
+      {
+        "name": "daznfast",
+        "url": "https://dyqiabnsd224t.cloudfront.net/dash/dazn-linear-504/stream.mpd?p=web",
+        "clearkeys": {
+          "cfb5e2b73bef4f3c878f25ab86a7451f":"0d6712bf2a84edcc93d001a9613f6fec",
+                    "8ab47741930c476780515f9a00decb0a":"7ab4b9ae5a48aa526e511a913b832769",
+                    "82f8e2a17dac44c0a18f660479349c59":"1b144f73e6fefe91cd05f850e2b589d0"
+        }
       }
 
     ]

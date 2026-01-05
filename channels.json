@@ -700,6 +700,13 @@
                     "8ab47741930c476780515f9a00decb0a":"7ab4b9ae5a48aa526e511a913b832769",
                     "82f8e2a17dac44c0a18f660479349c59":"1b144f73e6fefe91cd05f850e2b589d0"
         }
+      },
+      {
+        "name": "foxdeportes",
+        "url": "https://otte-netskrt.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+        "clearkeys": {
+          "d1a163914db8ffad2c3e94f979896a0d": "9728800a3959aafdd5b0bcfbf3768811"
+        }
       }
 
     ]

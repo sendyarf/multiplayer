@@ -9,7 +9,7 @@ var regionUrls = {
     "https://goeco.mobi/v945tSWp",
     "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
     "https://t.me/EQuranIdBot/app",
-    "https://invl.io/cln5oah",
+    "https://invl.io/cln65au",
     "https://atid.me/go/UbZYEjuc",
   ],
   // URL untuk pengguna dari Malaysia

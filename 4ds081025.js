@@ -2,11 +2,7 @@
 var regionUrls = {
   // URL untuk pengguna dari Indonesia
   ID: [
-    "https://goeco.mobi/mac2jWon",
-    "https://goeco.mobi/5TWCLzdl",
-    "https://goeco.mobi/Fwu7U0nI",
-    "https://goeco.mobi/RV1GhssO",
-    "https://goeco.mobi/v945tSWp",
+    "https://goeco.mobi/DvhHfqX8",
     "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
     "https://t.me/EQuranIdBot/app",
     "https://invl.io/cln65au",

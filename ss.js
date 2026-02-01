@@ -16,6 +16,6 @@ if (ssParam) {
     if (ssParam.includes('sporttv') || ssParam.includes('eleven') || ssParam.includes('btv')) category = 'pt';
     else if (ssParam.includes('br')) category = 'bra';
     
-    iframePlayer.src = `https://sportsonline.cv/channels/${category}/${ssParam}.php`;
+    iframePlayer.src = `https://www1.sportzonline.click/channels/${category}/${ssParam}.php`;
 }
 }

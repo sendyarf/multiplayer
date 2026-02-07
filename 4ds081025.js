@@ -8,6 +8,7 @@ var regionUrls = {
     "https://t.me/EQuranIdBot/app",
     "https://invl.io/cln65au",
     "https://goresanburam.blogspot.com/2025/06/plus-ui-responsive-blogger-template.html",
+    "https://otieu.com/4/10581428",
   ],
   // URL untuk pengguna dari Malaysia
   MY: [

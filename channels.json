@@ -707,6 +707,13 @@
         "clearkeys": {
           "d1a163914db8ffad2c3e94f979896a0d": "9728800a3959aafdd5b0bcfbf3768811"
         }
+      },
+       {
+        "name": "mncsp2",
+        "url": "https://rp-rplusku1.pages.dev/https://fta2-cdn-flr.visionplus.id/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd",
+        "clearkeys": {
+          "39c4dc6704cf4ceea2fd4863b88d8a7d": "4e9d7954c2ff46759289da4fc9f018ea"
+        }
       }
 
     ]

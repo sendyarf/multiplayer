@@ -407,6 +407,20 @@
           "00f9f3c0783536b8ee91704e23b78016": "bfd04d6f544c9cc4d35cb13ab6778587"
         }
       },
+       {
+        "name": "skytede",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jglxtfgzxa/out/v1/28a70425aec84b55bb9d29ccd5d53f45/cenc.mpd",
+        "clearkeys": {
+          "04e1aff27c2a13ad9aa9556501684743": "2097e55038d3cee7d69e88f4069840d1"
+        }
+      },
+       {
+        "name": "skymixde",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/tjz3qplazr/out/v1/546e7eee67cd472fb34f53112df73144/cenc.mpd",
+        "clearkeys": {
+          "3c393a1661a7a0c306ed4b2d3f8c7b7e": "74583ae652f0ed1bed5fc713f577fe1e"
+        }
+      },
       {
         "name": "espn3arg",
         "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/ESPN3/live_dash_cld/ESPN3.mpd",
@@ -713,6 +727,34 @@
         "url": "https://rp-rplusku1.pages.dev/https://fta2-cdn-flr.visionplus.id/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd",
         "clearkeys": {
           "39c4dc6704cf4ceea2fd4863b88d8a7d": "4e9d7954c2ff46759289da4fc9f018ea"
+        }
+      },
+      {
+        "name": "espn1ned",
+        "url": "https://nog-live1-ott.izzigo.tv/6/out/u/dash/ESPNHDH265/default.mpd",
+        "clearkeys": {
+          "3fb8167957692836eca1464b7f952b45": "f31042e8167eb4b49ce8117c9e5f1e85"
+        }
+      },
+      {
+        "name": "espn2ned",
+        "url": "https://nog-live1-ott.izzigo.tv/7/out/u/dash/ESPN2HDH265/default.mpd",
+        "clearkeys": {
+          "faa2d2197cc44dc154650bbacb0dc238": "9859d70c856660e20bbe6896f9cd3048"
+        }
+      },
+      {
+        "name": "espn3ned",
+        "url": "https://nog-live1-ott.izzigo.tv/6/out/u/dash/ESPN3HDH265/default.mpd",
+        "clearkeys": {
+          "10580600369dbd7ac029f7e737247917": "24ef48adb31daa130675c2a502da6982"
+        }
+      },
+      {
+        "name": "espn4ned",
+        "url": "https://nog-live1-ott.izzigo.tv/6/out/u/dash/ESPN4HDH265/default.mpd",
+        "clearkeys": {
+          "1d2d7f1116eeec62d19943a892d721f7": "033b809769a3c248af7383aa817fce72"
         }
       }
 

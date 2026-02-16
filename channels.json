@@ -832,6 +832,27 @@
         "clearkeys": {
           "1d2d7f1116eeec62d19943a892d721f7": "033b809769a3c248af7383aa817fce72"
         }
+      },
+      {
+        "name": "fox1arg",
+        "url": "https://cdn02.gigared.com.ar/live/eds/Fox_Sports/sa_live_dash/Fox_Sports.mpd",
+        "clearkeys": {
+          "6c0016fff15fcc3cc5d103f821189100": "94d789ac388ccbbfbd2cf91d5b7db028"
+        }
+      },
+      {
+        "name": "fox2arg",
+        "url": "https://cdn03.gigared.com.ar/live/eds/Fox_Sports_2/sa_live_dash/Fox_Sports_2.mpd",
+        "clearkeys": {
+          "a2e448d00073c0a66e02caa20a2fe135": "70e9e4adfb2f0b5ac127654c1a56d238"
+        }
+      },
+      {
+        "name": "fox3arg",
+        "url": "https://cdn02.gigared.com.ar/live/eds/Fox_Sports_3/sa_live_dash/Fox_Sports_3.mpd",
+        "clearkeys": {
+          "f2f0d2f5e823bf3bd1113ed83b244c57": "addd4c11afb303beb21f95f79a935561"
+        }
       }
 
     ]

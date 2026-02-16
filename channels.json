@@ -400,6 +400,34 @@
         }
       },
       {
+        "name": "bein1",
+        "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein1)/master.mpd",
+        "clearkeys": {
+          "d48b6088253c443eb94d27cb7828f707": "e9776141f9e949273a072b0e035070ab"
+        }
+      },
+       {
+        "name": "bein2",
+        "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein2)/master.mpd",
+        "clearkeys": {
+          "efa6ff1acefa43048e8b7adc21d98871": "5d0f448b52a92035e3763c4a60275933"
+        }
+      },
+      {
+        "name": "bein3",
+        "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein3)/master.mpd",
+        "clearkeys": {
+          "816ee2f7c19f49ed84276f34541b465b": "ca764a9973b6123a1112cffd3b32010d"
+        }
+      },
+      {
+        "name": "bein4",
+        "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein4)/master.mpd",
+        "clearkeys": {
+          "d561ff976397473e9b456b44cdffcdd2": "2b6cff42f7fae7e8bc32f3d5c62dc3c2"
+        }
+      },
+      {
         "name": "bein1aus",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
         "clearkeys": {
@@ -418,6 +446,34 @@
         "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "clearkeys": {
           "7995c724a13748ed970840a8ab5bb9b3": "67bdaf1e2175b9ff682fcdf0e2354b1e"
+        }
+      },
+      {
+        "name": "premier1",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "clearkeys": {
+          "1444f4235529f183f0a5a486befe9cdb": "e5e3fec67a1bb3472a2089c8a0a2557f"
+        }
+      },
+       {
+        "name": "premier2",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+        "clearkeys": {
+          "1a5df53609ebc9857898c490f4724918": "77f62980d582ec541280796acf8b2d19"
+        }
+      },
+      {
+        "name": "go3s1",
+        "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560502/index.mpd",
+        "clearkeys": {
+          "f48a8131e05f4d6e84de19f086c781a6": "fd28f2f966a906f4d4dcfd72ae90094e"
+        }
+      },
+       {
+        "name": "go3s2",
+        "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560502/index.mpd",
+        "clearkeys": {
+          "f48a8131e05f4d6e84de19f086c781a6": "fd28f2f966a906f4d4dcfd72ae90094e"
         }
       },
       {

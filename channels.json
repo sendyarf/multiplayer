@@ -499,30 +499,30 @@
       },
       {
         "name": "espn3arg",
-        "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/ESPN3/live_dash_cld/ESPN3.mpd",
+        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN3/sa_live_dash/ESPN3.mpd",
         "clearkeys": {
           "8836252059b793a79173838dc1186ff1": "aa16f90e51ce5652dab93834e434caa8"
         }
       },
       {
         "name": "espn1arg",
-        "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/ESPN/live_dash_cld/ESPN.mpd",
+        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN/sa_live_dash/ESPN.mpd",
         "clearkeys": {
-          "6d243ebd7a57bea4b4b052ae13f4c051": "5c1925879de873d43b7c25925902539b"
+          "ad0c72e30648501377425a62a2bf095c": "2cfbc73f423203a9fc8a1d983ec4e8bb"
         }
       },
       {
         "name": "espn2arg",
-        "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/ESPN2/live_dash_cld/ESPN2.mpd",
+        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN2/sa_live_dash/ESPN2.mpd",
         "clearkeys": {
-          "6a8bd6496d2444301c9d4d0feca9d75b": "3fd1967701ba2897729187b60094c158"
+          "02819f905f4e126d492693e44c688b82": "a12adec960cd1e33ad3b8ddbf0dd22b9"
         }
       },
       {
         "name": "espn4arg",
-        "url": "https://csc-axs-edge01.sensa.com.ar/live/eds/ESPN4/live_dash_cld/ESPN4.mpd",
+        "url": "https://cdn03.gigared.com.ar/live/eds/ESPN4/sa_live_dash/ESPN4.mpd",
         "clearkeys": {
-          "034653d3413f23e87249d1fb7e68359a": "a0d6b849f17c430e9cc02d07739a4e4a"
+          "ecafef3b8979c737d05ea191a02b7617": "f46cd12052b0da221a3a178e2bde0162"
         }
       },
       {

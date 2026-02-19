@@ -853,6 +853,20 @@
         "clearkeys": {
           "f2f0d2f5e823bf3bd1113ed83b244c57": "addd4c11afb303beb21f95f79a935561"
         }
+      },
+      {
+        "name": "setanta1",
+        "url": "https://v4-kun-v13-cdn-02.live.cdn.cgates.lt/live/dash/561002/index.mpd",
+        "clearkeys": {
+          "8ab2332442854e62b0018eec3ee58484": "37fdee8b6eef5c96001e8c6fc47bfc08"
+        }
+      },
+      {
+        "name": "setanta2",
+        "url": "https://v4-kun-v13-cdn-02.live.cdn.cgates.lt/live/dash/561504/index.mpd",
+        "clearkeys": {
+          "9552bcbabfbd4ac19744422143bfb875": "e6daacaced7eba147d2b667441060a4f"
+        }
       }
 
     ]

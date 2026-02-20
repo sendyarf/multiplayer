@@ -9,19 +9,26 @@ var regionUrls = {
     "https://invl.io/cln65au",
 
     "https://otieu.com/4/10581428",
+    "https://agedhead.com/rnYHjl",
   ],
   // URL untuk pengguna dari Malaysia
   MY: [
     "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
+    "https://otieu.com/4/10581428",
+    "https://agedhead.com/rnYHjl",
   ],
   // URL untuk pengguna dari Singapura
   SG: [
     "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
+    "https://otieu.com/4/10581428",
+    "https://agedhead.com/rnYHjl",
   ],
   // URL default untuk region lainnya
   DEFAULT: [
     "https://www.effectivegatecpm.com/ib0fp7x0u?key=4df897bd6e0b7f7f0bda7765e8ddc80a",
     "https://goresanburam.blogspot.com/2025/06/plus-ui-responsive-blogger-template.html",
+    "https://otieu.com/4/10581428",
+    "https://agedhead.com/rnYHjl",
   ],
 };
 

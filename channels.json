@@ -880,10 +880,12 @@
           "9552bcbabfbd4ac19744422143bfb875": "e6daacaced7eba147d2b667441060a4f"
         }
       },
-      
       {
         "name": "max",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/spbbd6tztz/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/spbbd6tztz/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd",
+        "clearkeys": {
+          "26a61860ec370b099baff034bbb7ae82": "6dfa730bcca7baa220d9525bf49439fa"
+        }
       }
 
     ]

@@ -886,7 +886,43 @@
         "clearkeys": {
           "26a61860ec370b099baff034bbb7ae82": "6dfa730bcca7baa220d9525bf49439fa"
         }
+      },
+      {
+        "name": "max2",
+        "url": "https://a189aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/4dclmcu4pf/out/v1/b3588cbd51284a0bae4bf28e325925b8/cenc.mpd",
+        "clearkeys": {
+          "9f9caee21c9a96aab927b3e56ca0dc13": "88dc376d98d6e2159dc4ea105008dd87"
+        }
+      },
+      {
+        "name": "max3",
+        "url": "https://a18aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/fwahwmazzj/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd",
+        "clearkeys": {
+          "fdb7aca482054e8cfe3a9fede7e4855a": "6eaafed46a976ef6beb6f1107fa2d41c"
+        }
+      },
+      {
+        "name": "max4",
+        "url": "https://a86aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/z5adngilc5/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+        "clearkeys": {
+          "4b712edb3f3294185af8a1b3004c857b": "eff1b519ff2433994d53d80376f4ef34"
+        }
+      },
+      {
+        "name": "max5",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/i1r4p2lh20/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+        "clearkeys": {
+          "a6094a60d37616d66675bcb3685cfa00": "a12fb287c1b4dcf30cf757b563a49c8e"
+        }
+      },
+      {
+        "name": "virginm2",
+        "url": "https://d3r8pf1u64jsoc.cloudfront.net/out/v1/efe2396f3d2d49559edb992c14909e42/index/index.m3u8",
+        "clearkeys": {
+          "6c4ef154df2f1c07704f4ffae4005be6": "294e0a27e76c43aeb16c2b71fc201cfb"
+        }
       }
+
 
     ]
   }

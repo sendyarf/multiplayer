@@ -200,7 +200,7 @@
       },
       {
         "name": "usanetwork",
-        "url": "https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd",
         "clearkeys": {
           "043ba1b4a2823fc4a6033178f3560431": "684358d80874b55f9335c73126e4d44e"
         }

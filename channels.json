@@ -104,6 +104,10 @@
       {
         "name": "skyuno",
         "url": "https://cc.screenify.shop:8080/stream/230/index.m3u8?token=T4Nz6WCt2Uwlqma4"
+      },
+      {
+        "name": "tudnusahls",
+        "url": "https://cors-proxy.cooks.fyi/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn-audio_eng=128000-video=4000000.m3u8"
       }
     ],
     "dash": [
@@ -178,7 +182,7 @@
         }
       },
       {
-        "name": "TUDNUSA",
+        "name": "tudnusa",
         "url": "https://aka-live1-ott.izzigo.tv/1/out/u/dash/TUDN-HD/default.mpd",
         "clearkeys": {
           "2722647f77b44824c432a3c4555830a2": "1734befb82f4b438bd84195f6c212e7b"

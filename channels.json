@@ -200,7 +200,7 @@
       },
       {
         "name": "usanetwork",
-        "url": "https://cors-proxy.cooks.fyi/https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd",
+        "url": "https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd",
         "clearkeys": {
           "043ba1b4a2823fc4a6033178f3560431": "684358d80874b55f9335c73126e4d44e"
         }
@@ -409,7 +409,7 @@
       },
       {
         "name": "bein1",
-        "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein1)/master.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein1)/master.mpd",
         "clearkeys": {
           "d48b6088253c443eb94d27cb7828f707": "e9776141f9e949273a072b0e035070ab"
         }

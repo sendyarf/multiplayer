@@ -29,6 +29,9 @@ var regionUrls = {
     "https://goresanburam.blogspot.com/2025/06/plus-ui-responsive-blogger-template.html",
     "https://otieu.com/4/10581428",
     "https://agedhead.com/rnYHjl",
+    "https://goeco.mobi/DvhHfqX8",
+    "https://goeco.mobi/7Ng9oida",
+    "https://markless.work/id",
   ],
 };
 

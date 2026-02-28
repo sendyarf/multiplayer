@@ -511,28 +511,28 @@
       },
       {
         "name": "espn3arg",
-        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN3/sa_live_dash/ESPN3.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://cdn02.gigared.com.ar/live/eds/ESPN3/sa_live_dash/ESPN3.mpd",
         "clearkeys": {
           "8836252059b793a79173838dc1186ff1": "aa16f90e51ce5652dab93834e434caa8"
         }
       },
       {
         "name": "espn1arg",
-        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN/sa_live_dash/ESPN.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://cdn02.gigared.com.ar/live/eds/ESPN/sa_live_dash/ESPN.mpd",
         "clearkeys": {
           "8b55a3ba068f882f49b36d216f29506f": "77f418bbcfc73739ebca9c52321472d3"
         }
       },
       {
         "name": "espn2arg",
-        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN2/sa_live_dash/ESPN2.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://cdn02.gigared.com.ar/live/eds/ESPN2/sa_live_dash/ESPN2.mpd",
         "clearkeys": {
           "02819f905f4e126d492693e44c688b82": "a12adec960cd1e33ad3b8ddbf0dd22b9"
         }
       },
       {
         "name": "espn4arg",
-        "url": "https://cdn03.gigared.com.ar/live/eds/ESPN4/sa_live_dash/ESPN4.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://cdn03.gigared.com.ar/live/eds/ESPN4/sa_live_dash/ESPN4.mpd",
         "clearkeys": {
           "ecafef3b8979c737d05ea191a02b7617": "f46cd12052b0da221a3a178e2bde0162"
         }

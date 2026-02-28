@@ -616,14 +616,14 @@
       },
       {
         "name": "fubo",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://netskrt.live.pv-cdn.net/OTTB/iad-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
         "clearkeys": {
           "dc69b6159a0f9f0a4e03b3ff91cbacd5": "d0dcbcd7723bc40df0bf34c9c092d51f"
         }
       },
       {
         "name": "fubo2",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd",
+        "url": "https://cors-proxy.cooks.fyi/https://netskrt.live.pv-cdn.net/OTTB/iad-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd",
         "clearkeys": {
           "3dcfbec0e7146928baa55210bf2cb62f": "bc85f74f815d9be5ae1dd6defaa05135"
         }

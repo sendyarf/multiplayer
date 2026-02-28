@@ -921,6 +921,14 @@
         "clearkeys": {
           "6c4ef154df2f1c07704f4ffae4005be6": "294e0a27e76c43aeb16c2b71fc201cfb"
         }
+      },
+      {
+        "name": "tv2sp1",
+        "url": "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_tv2sportpremium1_live/sm_tv2sportpremium1_live.isml/playlist.mpd",
+        "clearkeys": {
+          "009c35875ff000418c39f05622cf6b20":"88d5b1a639ebad6112c6447290169599",
+		      "009c35875ff000418c39f05622cf6b10":"fb5e26e27925056e76885711cbf3ac1c"
+        }
       }
 
 

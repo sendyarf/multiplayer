@@ -943,6 +943,20 @@
         "clearkeys": {
           "fd86dde0ae3e14ff51c8fc8f248a50db": "d106ae78b0893da2e4393ece99420baa"
         }
+      },
+		{
+        "name": "canale5",
+        "url": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd",
+        "clearkeys": {
+          "00f9f3c0783536b8ce4a30a01a52e082": "e926f7d45af4f7d154c990eae6a2d937"
+        }
+      },
+		{
+        "name": "winsport",
+        "url": "https://362a33c2a385d7d1e52d89d18399caac6d7e6240.cdn.broadpeak.io/bcdn_token=wXlMk40i_LOJw5y19yOWR4ruebz_N230AvoPwGf4gn4&token_ignore_params=true&token_path=%2Fout%2Fv1%2F1f375ac45935404eb603d44841ced543%2F&expires=1772589651/out/v1/1f375ac45935404eb603d44841ced543/index.mpd",
+        "clearkeys": {
+          "19ca642b3eba4f4d81637667a04fdd9e": "a18d219ded2ebfa8f41db4a110324a9e"
+        }
       }
 
 

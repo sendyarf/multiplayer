@@ -22,7 +22,6 @@ function openPopup() {
   }
 }
 
-document.addEventListener("click", function handler() {
+document.addEventListener("click", function() {
   openPopup();
-  document.removeEventListener("click", handler);
 });

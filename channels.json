@@ -965,6 +965,20 @@
         "clearkeys": {
           "19ca642b3eba4f4d81637667a04fdd9e": "a18d219ded2ebfa8f41db4a110324a9e"
         }
+      },
+		{
+        "name": "isra1",
+        "url": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5/live.livx?indexMode&amp;dvr=7200000",
+        "clearkeys": {
+          "c3b32b23081b5486ae5176da9c358808": "4708b352ee1d50ccdf94af9d2a952ed8"
+        }
+      },
+		{
+        "name": "isra2",
+        "url": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5_plus/live.livx?indexMode&amp;dvr=7200000",
+        "clearkeys": {
+          "bc8890f394376152b7570ac185a95536": "dbbd601df4236ea0f55e60d99dd70564"
+        }
       }
 
 

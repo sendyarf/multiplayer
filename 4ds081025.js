@@ -6,7 +6,7 @@ var popupUrls = [
   "https://invl.io/cln65au",
   "https://otieu.com/4/10581428",
   "https://agedhead.com/rnYHjl",
-  "https://goresanburam.blogspot.com/2025/06/plus-ui-responsive-blogger-template.html",
+  "https://bjngnmedia.markless.work/en/",
   "https://goeco.mobi/DvhHfqX8",
   "https://goeco.mobi/7Ng9oida",
 ];

@@ -953,6 +953,13 @@
         }
       },
 		{
+        "name": "tvelaw",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/arv0kf9ndp/out/v1/aa299e8d19994d78b35977495064e64c/cenc.mpd",
+        "clearkeys": {
+          "92eb4fb693ddc7b72909828ad62cdff5": "0b6f7e58c4566ca418447332b228d488"
+        }
+      },
+		{
         "name": "canale5",
         "url": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd",
         "clearkeys": {

@@ -979,6 +979,13 @@
         "clearkeys": {
           "bc8890f394376152b7570ac185a95536": "dbbd601df4236ea0f55e60d99dd70564"
         }
+      },
+		{
+        "name": "tudnmx",
+        "url": "https://zap-live1-ott.izzigo.tv/11/out/u/dash/TUDN-HD/default.mpd",
+        "clearkeys": {
+          "2722647f77b44824c432a3c4555830a2": "1734befb82f4b438bd84195f6c212e7b"
+        }
       }
 
 

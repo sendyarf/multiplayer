@@ -784,23 +784,23 @@
       },
       {
         "name": "psn1",
-        "url": "https://cdn3.skygo.mn/live/disk1/SPSPrime/DASH-FTA/SPSPrime.mpd"
+        "url": "https://cdn3.skygo.mn/live/disk1/SPSPrime/STRM-CH2-1/SPSPrime.mpd"
       },
        {
         "name": "psn2",
-        "url": "https://cdn3.skygo.mn/live/disk1/SPSPlay/DASH-FTA/SPSPlay.mpd"
+        "url": "https://cdn3.skygo.mn/live/disk1/SPSPlay/STRM-CH2-1/SPSPlay.mpd"
       },
       {
         "name": "psn3",
-        "url": "https://cdn3.skygo.mn/live/disk1/PSN3/DASH-FTA/PSN3.mpd"
+        "url": "https://cdn3.skygo.mn/live/disk1/PSN3/STRM-CH2-1/PSN3.mpd"
       },
        {
         "name": "psn4",
-        "url": "https://cdn3.skygo.mn/live/disk1/SPSFight/DASH-FTA/SPSFight.mpd"
+        "url": "https://cdn3.skygo.mn/live/disk1/SPSFight/STRM-CH2-1/SPSFight.mpd"
       },
       {
         "name": "psn5",
-        "url": "http://cdn4.skygo.mn/live/disk1/SPSPlus/DASH-FTA/SPSPlus.mpd"
+        "url": "http://cdn4.skygo.mn/live/disk1/SPSPlus/STRM-CH2-1/SPSPlus.mpd"
       },
       {
         "name": "daznfast",

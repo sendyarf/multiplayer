@@ -1008,6 +1008,18 @@
 		{
         "name": "cosmotesport2",
         "url": "https://bbb.exoadash.com/TVD4071/index.mpd"
+      },
+		{
+        "name": "cosmotesport3",
+        "url": "https://bbb.exoadash.com/TVD4072/index.mpd"
+      },
+		{
+        "name": "nova3cz",
+        "url": "https://bbb.exoadash.com/TVD2709/index.mpd"
+      },
+		{
+        "name": "nova4cz",
+        "url": "https://bbb.exoadash.com/TVD2700/index.mpd"
       }
 
 

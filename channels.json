@@ -1006,6 +1006,10 @@
         }
       },
 		{
+        "name": "cosmotesport1",
+        "url": "https://bbb.exoadash.com/TVD4070/index.mpd"
+      },
+		{
         "name": "cosmotesport2",
         "url": "https://bbb.exoadash.com/TVD4071/index.mpd"
       },
@@ -1014,12 +1018,56 @@
         "url": "https://bbb.exoadash.com/TVD4072/index.mpd"
       },
 		{
+        "name": "cosmotesport4",
+        "url": "https://bbb.exoadash.com/TVD4073/index.mpd"
+      },
+		{
+        "name": "cosmotesport5",
+        "url": "https://bbb.exoadash.com/TVD4074/index.mpd"
+      },
+		{
+        "name": "cosmotesport6",
+        "url": "https://bbb.exoadash.com/TVD4075/index.mpd"
+      },
+		{
+        "name": "cosmotesport7",
+        "url": "https://bbb.exoadash.com/TVD4076/index.mpd"
+      },
+		{
+        "name": "cosmotesport8",
+        "url": "https://bbb.exoadash.com/TVD4077/index.mpd"
+      },
+		{
+        "name": "cosmotesporthl",
+        "url": "https://bbb.exoadash.com/TVD4079/index.mpd"
+      },
+		{
+        "name": "nova2cz",
+        "url": "https://bbb.exoadash.com/TVD2716/index.mpd"
+      },
+		{
         "name": "nova3cz",
         "url": "https://bbb.exoadash.com/TVD2709/index.mpd"
       },
 		{
         "name": "nova4cz",
         "url": "https://bbb.exoadash.com/TVD2700/index.mpd"
+      },
+		{
+        "name": "ligue1plus",
+        "url": "https://bbb.exoadash.com/TVD2083/index.mpd"
+      },
+		{
+        "name": "canalplussport",
+        "url": "https://bbb.exoadash.com/TVD2722/index.mpd"
+      },
+		{
+        "name": "canalplusaction",
+        "url": "https://bbb.exoadash.com/TVD2723/index.mpd"
+      },
+		{
+        "name": "sport2sk",
+        "url": "https://bbb.exoadash.com/TVD2727/index.mpd"
       }
 
 

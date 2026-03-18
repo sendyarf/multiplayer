@@ -1072,6 +1072,10 @@
 		{
         "name": "novapl",
         "url": "https://bbb.exoadash.com/TVD6219/index.mpd"
+      },
+		{
+        "name": "novasportsstart",
+        "url": "https://bbb.exoadash.com/TVD6220/index.mpd"
       }
 
 

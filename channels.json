@@ -772,6 +772,13 @@
           "dca8597f12f8d6928b55c1291c7bb300": "36c8b3f51d474b95f0adad70899343e1"
         }
       },
+		{
+        "name": "telefear",
+        "url": "https://cdnlb.gigared.com.ar/live/eds/Telefe/sa_live_dash/Telefe.mpd",
+        "clearkeys": {
+          "865b35fdb4c119f3ccfd4ee392928aef": "b43adf6d88b3befbf7f69a71dc273e46"
+        }
+      },
       {
         "name": "cbssports",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/PDX/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",

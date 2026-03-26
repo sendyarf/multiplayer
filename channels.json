@@ -411,9 +411,9 @@
       },
       {
         "name": "espn1mx",
-        "url": "https://zap-live2-ott.izzigo.tv/1/out/u/dash/ESPNHD/default.mpd",
+        "url": "https://bks400-tol-110.quieroxview.com.mx/bpk-tv/espn_hd/default/index.mpd",
         "clearkeys": {
-          "bb43112b7b72e9c287da0ecdec8606a7": "29e3d2678107f0ab0b35b6537c734f2a"
+          "52358519f886446d82834a803b36f796": "58b6ac8e07d354b178255e03b9d0f819"
         }
       },
        {

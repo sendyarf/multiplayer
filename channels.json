@@ -999,6 +999,13 @@
         }
       },
 		{
+        "name": "soccerhd",
+        "url": "https://cors-proxy.cooks.fyi/https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+        "clearkeys": {
+          "4035323a7fe64767ab8f3345ed9b93be": "67377b8d429603f8bf30c161bda269e5"
+        }
+      },
+		{
         "name": "sportdigital",
         "url": "https://otte.bia-cf.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
         "clearkeys": {

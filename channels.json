@@ -823,10 +823,17 @@
         }
       },
        {
-        "name": "mncsp2",
-        "url": "https://rp-rplusku1.pages.dev/https://fta2-cdn-flr.visionplus.id/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd",
+        "name": "mncsp1",
+        "url": "https://cors-proxy.cooks.fyi/https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd",
         "clearkeys": {
           "39c4dc6704cf4ceea2fd4863b88d8a7d": "4e9d7954c2ff46759289da4fc9f018ea"
+        }
+      },
+		 {
+        "name": "mncsp2",
+        "url": "https://cors-proxy.cooks.fyi/https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd",
+        "clearkeys": {
+          "911e72adf36946afbdbb4f80782a8394": "08aec548a851ba64b7172ae7f05cb91c"
         }
       },
       {

@@ -614,7 +614,7 @@
       },
       {
         "name": "sportv3",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
         "clearkeys": {
           "902e5ec0e3d05e665daa32fc23f4f59e": "7b2322a273843921a43e2c61dac7cae3"
         }
@@ -635,7 +635,7 @@
       },
       {
         "name": "fubo2",
-        "url": "https://cors-proxy.cooks.fyi/https://netskrt.live.pv-cdn.net/OTTB/iad-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd",
         "clearkeys": {
           "3dcfbec0e7146928baa55210bf2cb62f": "bc85f74f815d9be5ae1dd6defaa05135"
         }

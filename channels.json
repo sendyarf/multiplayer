@@ -1006,10 +1006,38 @@
         }
       },
 		{
+        "name": "5sport",
+        "url": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5/live.livx?indexMode&amp;dvr=7200000",
+        "clearkeys": {
+          "c3b32b23081b5486ae5176da9c358808": "4708b352ee1d50ccdf94af9d2a952ed8"
+        }
+      },
+		{
         "name": "isra2",
         "url": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5_plus/live.livx?indexMode&amp;dvr=7200000",
         "clearkeys": {
           "bc8890f394376152b7570ac185a95536": "dbbd601df4236ea0f55e60d99dd70564"
+        }
+      },
+		{
+        "name": "5sportplus",
+        "url": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5_plus/live.livx?indexMode&amp;dvr=7200000",
+        "clearkeys": {
+          "bc8890f394376152b7570ac185a95536": "dbbd601df4236ea0f55e60d99dd70564"
+        }
+      },
+		{
+        "name": "5sportstar",
+        "url": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5_starz/live.livx?indexMode&amp;dvr=7200000",
+        "clearkeys": {
+          "f788e107fecdf189b157766bc4db084e": "7f531e4eed5d07f5ae187c8807b40480"
+        }
+      },
+		{
+        "name": "5sportlive",
+        "url": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5_live/live.livx?indexMode&amp;dvr=7200000",
+        "clearkeys": {
+          "cc667cda2ff49c4500fdf1ad847d4fc0": "13a48dc2c1257fd9a119b448de5225f6"
         }
       },
 		{

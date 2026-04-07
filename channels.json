@@ -120,6 +120,42 @@
       {
         "name": "tudnusahls",
         "url": "https://cors-proxy.cooks.fyi/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn-audio_eng=128000-video=4000000.m3u8"
+      },
+		{
+        "name": "sky252",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1611.m3u8"
+      },
+		{
+        "name": "sky253",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1612.m3u8"
+      },
+		{
+        "name": "sky254",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1613.m3u8"
+      },
+		{
+        "name": "sky255",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1614.m3u8"
+      },
+		{
+        "name": "sky256",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1615.m3u8"
+      },
+		{
+        "name": "sky257",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1616.m3u8"
+      },
+		{
+        "name": "sky258",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1617.m3u8"
+      },
+		{
+        "name": "sky259",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1618.m3u8"
+      },
+		{
+        "name": "skymax",
+        "url": "https://xuione.sportstreaming.net/SportStreaming/9PnkeSBnf5/1607.m3u8"
       }
     ],
     "dash": [

@@ -1193,6 +1193,13 @@
         "clearkeys": {
           "a518c629bd683a4eba5f2a793bcb48d6": "49642d2151ac6c3f8453bbfc4b3fdfc0"
         }
+      },
+		{
+        "name": "tsn2",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+        "clearkeys": {
+          "daa8ea92553fd16cd6bfae2b8c582715": "4042e041b5639b79b69ae07a872eef9b"
+        }
       }
 
 

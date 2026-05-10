@@ -388,10 +388,10 @@
         }
       },
       {
-        "name": "LALIGATV",
-        "url": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/tu06vubgf9/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+        "name": "laligatv",
+        "url": "https://otte.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
         "clearkeys": {
-          "6d08b265a6639e32da7c880d5491e3d2": "0c92556ca14b95f367993710e7cfbc94"
+          "620e51b82596475517a27aa425c52280": "2b9ba811e9c5aeafc8ae1b71cdca4d6a"
         }
       },
       {

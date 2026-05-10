@@ -1186,6 +1186,13 @@
 		{
         "name": "novasportsstart",
         "url": "https://bbb.exoadash.com/TVD6220/index.mpd"
+      },
+		{
+        "name": "dsports",
+        "url": "https://live.streaming.a2d.tv/asset/20465725.isml/dash.mpd",
+        "clearkeys": {
+          "a518c629bd683a4eba5f2a793bcb48d6": "49642d2151ac6c3f8453bbfc4b3fdfc0"
+        }
       }
 
 

@@ -804,6 +804,13 @@
           "11223344556677889900112233445566": "4b80724d0ef86bcb2c21f7999d67739d"
         }
       },
+		 {
+        "name": "jojsport",
+        "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
+        "clearkeys": {
+          "11223344556677889900112233445566": "4b80724d0ef86bcb2c21f7999d67739d"
+        }
+      },
       {
         "name": "tv2xdk",
         "url": "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_tv2_sport_x_live/sm_tv2_sport_x_live.isml/playlist.mpd",

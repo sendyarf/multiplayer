@@ -1249,7 +1249,7 @@
       },
 		{
         "name": "caracoltv",
-        "url": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/c1464dd58d504cd2a3095a1e13adc28c/d97743de3620a865848fff7a9de14dda1bf2409d/session/f3ff5f07-e0ee-4841-9794-164385a77161/manifest.mpd?player=698d025b1e7558eea117b4dd&access_token=N1tCvJUMtrZuApQkqxBCnAsIyrWdLIKBymXYT8JsCwTn0bAZPV6kq5VeeZ0gBonTYoDdCRpm7lw&uid=8sd3WIQO8unRQwNa1Y1kA72UuPHcAlui&sid=QvundnY4fcIp37ABZUDO9f7omeMimo1N&pid=GrTyoaChQH26EsX8QfF7PSskk2qmbfYU&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2&manifestfilter=video_height:480-1080",
+        "url": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/c1464dd58d504cd2a3095a1e13adc28c/d97743de3620a865848fff7a9de14dda1bf2409d/session/f3ff5f07-e0ee-4841-9794-164385a77161/manifest.mpd",
         "clearkeys": {
           "1c6bfd8d1cdd4df69ea5fc4dd2f025bb": "b6fd90027dac7a94a9461f8b2638cbb4"
         }

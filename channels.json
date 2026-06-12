@@ -1050,8 +1050,8 @@
         }
       },
 		{
-        "name": "winsport",
-        "url": "https://362a33c2a385d7d1e52d89d18399caac6d7e6240.cdn.broadpeak.io/bcdn_token=wXlMk40i_LOJw5y19yOWR4ruebz_N230AvoPwGf4gn4&token_ignore_params=true&token_path=%2Fout%2Fv1%2F1f375ac45935404eb603d44841ced543%2F&expires=1772589651/out/v1/1f375ac45935404eb603d44841ced543/index.mpd",
+        "name": "winsports",
+        "url": "https://362a33c2a385d7d1e52d89d18399caac6d7e6240.cdn.broadpeak.io/bcdn_token=lptsbl4LUFDpYsY64FyoASHVMjq_kuaiUuzOwwqNVXU&token_ignore_params=true&token_path=%2Fout%2Fv1%2F1f375ac45935404eb603d44841ced543%2F&expires=1781317802/out/v1/1f375ac45935404eb603d44841ced543/index.mpd",
         "clearkeys": {
           "19ca642b3eba4f4d81637667a04fdd9e": "a18d219ded2ebfa8f41db4a110324a9e"
         }

@@ -1281,6 +1281,13 @@
         "clearkeys": {
           "1cb20afcd9d979c833cfd208c7d3eeb2": "fef0c15b4a523370892edd5e4133c269"
         }
+      },
+		{
+        "name": "foxone",
+        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+        "clearkeys": {
+          "f6564ec2aee819046328a0e153be574d": "ff46a8a1031eb27ef22576a077c98ab7"
+        }
       }
 
 

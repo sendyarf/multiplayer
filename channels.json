@@ -1274,6 +1274,13 @@
         "clearkeys": {
           "adca25b8779e4168a0cd710f59f61ccf": "be5383ed3cd8079f4ffe78ad067f476a"
         }
+      },
+		{
+        "name": "fussballtv1",
+        "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd",
+        "clearkeys": {
+          "1cb20afcd9d979c833cfd208c7d3eeb2": "fef0c15b4a523370892edd5e4133c269"
+        }
       }
 
 

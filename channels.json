@@ -274,9 +274,9 @@
       },
       {
         "name": "tudnmx",
-        "url": "https://zap-live1-ott.izzigo.tv/11/out/u/dash/TUDN-HD/default.mpd",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8u9cregwlt/out/v1/687f6b2a559943549be271504a948ffd/cenc.mpd",
         "clearkeys": {
-          "2722647f77b44824c432a3c4555830a2": "1734befb82f4b438bd84195f6c212e7b"
+          "1710ac2bbfcd3032d0f6533850968f47": "d2548dacc8efcd1cd0af0373060c82dc"
         }
       },
       {

@@ -1302,6 +1302,13 @@
         "clearkeys": {
           "9e2eef5227e84a89bef2ec0e1adf1d9d": "bfb5d1fbecc55f864dc0ef25d50fcaf3"
         }
+      },
+		{
+        "name": "rcntv",
+        "url": "https://362a33c2a385d7d1e52d89d18e7b847cb94bddad.cdn.broadpeak.io/out/v1/03d8d938b87b4b3981b7fdfa6a00a9b1/index.mpd",
+        "clearkeys": {
+          "764f6e84763f46029c56e7eb47367e87": "6a652aaeee3614985dadd047f4a611e0"
+        }
       }
 
 

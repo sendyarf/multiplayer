@@ -1213,6 +1213,13 @@
         }
       },
 		{
+        "name": "dsports2",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+        "clearkeys": {
+          "03f12d6a3dbfd3a6fa7dd7f6417e0c11": "ea07b87acdf2e45be824cde4a1cf3504"
+        }
+      },
+		{
         "name": "tsn1",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
         "clearkeys": {

@@ -1332,6 +1332,13 @@
         "clearkeys": {
           "d185684e2330de5bea436daa094a5e86": "014f0116154f5bf0050e03a6b0a23157"
         }
+      },
+		{
+        "name": "wctv",
+        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+        "clearkeys": {
+          "2c338a117d434ce4bbe3569231af90f1": "a9633d901ee8a3f4f58ac314b5c5f4fb"
+        }
       }
 
 

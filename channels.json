@@ -1207,9 +1207,10 @@
       },
 		{
         "name": "dsports",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qubxnja5rl/out/v1/4ef0db80aa3341e2babb58314541f1e0/cenc.mpd",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
         "clearkeys": {
-          "c432184d1ab00475aded5731162d99b7": "5f361ae2b35dcb415fe612ea7e85ed9d"
+          "c432184d1ab00475aded5731162d99b7": "5f361ae2b35dcb415fe612ea7e85ed9d",
+			 "4f4c3a9912ea752e88f4497864a1bc8b": "278128004fe8c6ffb2cd2a0c154a241a"
         }
       },
 		{

@@ -1347,6 +1347,13 @@
         "clearkeys": {
           "0182ed7af02734ecb17a2f55eec98f99": "60346785b1095596de621031e9daf3ec"
         }
+      },
+		{
+        "name": "sportsk",
+        "url": "https://dash2.antik.sk/stream/nvidia_rtvs_sport/playlist_cenc.mpd",
+        "clearkeys": {
+          "11223344556677889900112233445566": "4b80724d0ef86bcb2c21f7999d67739d"
+        }
       }
 
 

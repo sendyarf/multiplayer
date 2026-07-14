@@ -1338,7 +1338,7 @@
         "name": "wctv",
         "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
         "clearkeys": {
-          "2c338a117d434ce4bbe3569231af90f1": "a9633d901ee8a3f4f58ac314b5c5f4fb"
+          "17bb9e12c9d844bb9d032a5399d61cc5": "08c136b87678210bbac2224550f85c9e"
         }
       },
 		{
@@ -1358,6 +1358,13 @@
 		{
         "name": "suldtv",
         "url": "https://cdn.skygo.mn/live/disk1/SuldTV/DASH-FTA/SuldTV.mpd"
+      },
+		{
+        "name": "teleamazonas",
+        "url": "https://teleamazonasb.cdn.mdstrm.com/live-stream-mp/dfzu2jckcs3he/a5e7a2777ea24b8ca49b326b536f87b2/6a0cd90eb3852427fcded197/manifest.mpd",
+        "clearkeys": {
+          "aa78205160ef4b5c972d5e815a8fe6e4": "338b545591e45469e71dae3a8fb8dbb0"
+        }
       }
 
 

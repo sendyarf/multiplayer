@@ -5,6 +5,7 @@ var popupUrls = [
   "https://goeco.mobi/QB3nJBYZ",
   "https://goeco.mobi/ZXe2cViC",
   "https://invl.io/clnfl0d",
+  "https://vidx.download",
 ];
 
 var lastPopupTime = 0;

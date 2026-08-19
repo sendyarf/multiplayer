@@ -1,11 +1,13 @@
 var popupUrls = [
-  "https://goeco.mobi/O2ZVK8G3",
-  "https://goeco.mobi/aTThFwd6",
   "https://bjngn.fyi/en/tools/video-fps-changer",
-  "https://goeco.mobi/QB3nJBYZ",
-  "https://goeco.mobi/ZXe2cViC",
-  "https://invl.io/clnfl0d",
   "https://vidx.download",
+  "https://vt.tokopedia.com/t/ZS9k4XoCvPH1S-LhIqc/",
+  "https://vt.tokopedia.com/t/ZS9k4XwJsMo4k-z8fdL/",
+  "https://goeco.mobi/HHToxMIK",
+  "https://goeco.mobi/b8Imhcff",
+  "https://invl.io/clnscke",
+  "https://invl.io/clnsckw",
+  "https://s.shopee.co.id/6q01Qplb4a",
 ];
 
 var lastPopupTime = 0;

@@ -1,5 +1,4 @@
 var popupUrls = [
-  "https://bjngn.fyi/en/tools/video-fps-changer",
   "https://vidx.download",
   "https://vt.tokopedia.com/t/ZS9k4XoCvPH1S-LhIqc/",
   "https://vt.tokopedia.com/t/ZS9k4XwJsMo4k-z8fdL/",
@@ -7,7 +6,6 @@ var popupUrls = [
   "https://goeco.mobi/b8Imhcff",
   "https://invl.io/clnscke",
   "https://invl.io/clnsckw",
-  "https://s.shopee.co.id/6q01Qplb4a",
 ];
 
 var lastPopupTime = 0;

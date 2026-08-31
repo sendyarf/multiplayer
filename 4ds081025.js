@@ -1,5 +1,5 @@
 var popupUrls = [
-  "https://vidx.download",
+  "https://vidx.download/tiktok-downloader",
   "https://vt.tokopedia.com/t/ZS9k4XoCvPH1S-LhIqc/",
   "https://vt.tokopedia.com/t/ZS9k4XwJsMo4k-z8fdL/",
   "https://goeco.mobi/IhQFtPLs",

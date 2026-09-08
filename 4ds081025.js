@@ -6,6 +6,7 @@ var popupUrls = [
   "https://goeco.mobi/b8Imhcff",
   "https://invl.io/clnscke",
   "https://invl.io/clnsckw",
+  "https://vt.tokopedia.com/t/ZS9SMrpS9Vab8-dQjYZ/",
   "https://vt.tokopedia.com/t/ZS9BwY4dLVhDp-z4opa/",
 ];
 

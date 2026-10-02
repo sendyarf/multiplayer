@@ -9,7 +9,7 @@ var popupUrls = [
   "https://vt.tokopedia.com/t/ZS9SMrpS9Vab8-dQjYZ/",
   "https://vt.tokopedia.com/t/ZS9BwY4dLVhDp-z4opa/",
   "https://vctria.com/",
-  "quran.vctria.com",
+  "https://quran.vctria.com",
 ];
 
 var lastPopupTime = 0;

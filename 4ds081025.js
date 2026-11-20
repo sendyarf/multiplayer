@@ -8,6 +8,7 @@ var popupUrls = [
   "https://vt.tokopedia.com/t/ZS9BwY4dLVhDp-z4opa/",
   "https://blog.vctria.com/2026/10/lost-manga-panel-comicscan-finds-its.html",
   "https://www.youtube.com/shorts/t9aoJrK3Qls",
+  "https://www.youtube.com/shorts/aDUb8n-UrXI",
 ];
 
 var lastPopupTime = 0;

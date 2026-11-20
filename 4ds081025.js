@@ -1,5 +1,4 @@
 var popupUrls = [
-  "https://vidx.download/tiktok-downloader",
   "https://goeco.mobi/IhQFtPLs",
   "https://goeco.mobi/b8Imhcff",
   "https://invl.io/clnscke",

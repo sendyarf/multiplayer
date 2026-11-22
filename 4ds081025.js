@@ -1,7 +1,12 @@
 var popupUrls = [
 
-  "https://www.youtube.com/shorts/_qyIp9lSbCc",
-  "https://www.youtube.com/shorts/d1auPH_8Z5U",
+  "https://goeco.mobi/IhQFtPLs",
+  "https://goeco.mobi/b8Imhcff",
+  "https://invl.io/clnscke",
+  "https://invl.io/clnsckw",
+  "https://vt.tokopedia.com/t/ZS9SMrpS9Vab8-dQjYZ/",
+  "https://vt.tokopedia.com/t/ZS9BwY4dLVhDp-z4opa/",
+  "https://blog.vctria.com/2026/10/lost-manga-panel-comicscan-finds-its.html",
 
 ];
 
